@@ -138,7 +138,7 @@ jobs:
         with:
           name: firmware
           path: corne_right_nrfmicro_13.uf2
-      - name: West Build (jorne Left)
+      - name: West Build (jorne Left_nrf)
         uses: 'docker://zmkfirmware/zephyr-west-action-arm:latest'
         id: west-build-jorne-left
         with:
@@ -155,7 +155,7 @@ jobs:
         with:
           name: firmware
           path: jorne_left_nrfmicro_13.uf2
-      - name: West Build (jorne Right)
+      - name: West Build (jorne Right_nrf)
         uses: 'docker://zmkfirmware/zephyr-west-action-arm:latest'
         id: west-build-jorne-right
         with:
