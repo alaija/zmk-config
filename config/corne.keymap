@@ -50,19 +50,19 @@
 // |--------------+---------+--------+--------+---------+---------|       |-------+---------+---------+---------+----------+----------|
 // |   SHFT       |    !    |    @   |   #    |    $    |    %    |       |   ^   |    &    |    *    |    (    |     )    |     :    |
 // '---------------------------------+--------+---------+---------+       |-------+---------+---------+-------------------------------'
-//                                   |  GUI   |         |   MO3   |       |   ,   |    .    |   BKSP  |
+//                                   |  GUI   |         |   MO3   |       |   SPC  |    .    |   BKSP  |
 //                                   '--------+---------+---------'       '-------+---------+---------'
                         bindings = <
    &kp ESC       &trans    &kp KP_PLUS &kp KP_MINUS &kp LEFT_BRACE &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &kp RIGHT_BRACE            &kp KP_EQUAL           &kp UNDERSCORE           &kp PIPE     &trans
    &trans        &kp N1    &kp N2      &kp N3       &kp N4         &kp N5            &kp N6                   &kp N7                     &kp N8                 &kp N9                   &kp N0     &kp BSLH
    &kp LSHFT     &kp EXCL  &kp AT      &kp HASH     &kp DLLR       &kp PRCNT         &kp CARET                &kp AMPS                   &kp KP_MULTIPLY        &kp LPAR                 &kp RPAR   &kp COLON
-                           &kp LGUI    &trans       &mo ADJUST     &kp COMMA         &kp DOT                &kp BSPC
+                           &kp LGUI    &trans       &mo ADJUST     &kp SPACE         &kp DOT                &kp BSPC
                         >;
                 };
                 
                 raise_layer {
 // .----------------------------------------------------------------.       .-----------------------------------------------------------------.
-// |   CMD+SHIFT+4  |       |   PU   |   UP   |    PD    |   HOME   |       |  HOME   |    PU    |    UP   |   PD    |          | CMD+SHIFT+4 |
+// |   CMD+SHIFT+4  |       |   PU   |   UP   |    PD    |   HOME   |       |  HOME   |    PU    |    UP   |   PD    |          | CMD+SHIFT+5 |
 // |----------------+-------+--------+--------+----------+----------|       |---------+----------+---------+---------+----------+-------------|
 // |                |       |  LEFT  |  DOWN  |   RIGHT  |   END    |       |  END    |   LEFT   |   DOWN  |  RIGHT  |          |             |
 // |----------------+-------+--------+--------+----------+----------|       |---------+----------+---------+---------+----------+-------------|
@@ -72,7 +72,7 @@
 //                                   '--------+----------+----------'       '---------+----------+---------'
 
                         bindings = <
-   &kp LG(LS(N4))  &trans     &kp PAGE_UP        &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME                &kp CARET            &kp PAGE_UP             &kp UP_ARROW       &kp PAGE_DOWN      &kp HOME     &kp LG(LS(N4))
+   &kp LG(LS(N4))  &trans     &kp PAGE_UP        &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME                &kp CARET            &kp PAGE_UP             &kp UP_ARROW       &kp PAGE_DOWN      &kp HOME     &kp LG(LS(N5))
    &trans          &trans     &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END                 &kp MINUS            &kp LEFT_ARROW          &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END      &trans
    &out OUT_TOG    &trans     &trans             &trans       &kp LG(LC(LEFT_ARROW)) &kp LG(LC(RIGHT_ARROW))     &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)     &trans             &trans             &trans       &out OUT_TOG
                               &kp LGUI           &mo ADJUST        &trans              &mo ADJUST  &trans   &trans
