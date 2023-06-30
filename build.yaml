@@ -5,3 +5,7 @@ include:
     shield: corne_right
   - board: nrfmicro_13
     shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: tbk_left
+  - board: seeeduino_xiao_ble
+    shield: tbk_right
