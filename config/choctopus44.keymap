@@ -38,10 +38,10 @@
 
     lower_layer {
       bindings = <
-        &kp ESC       &trans    &kp KP_PLUS &kp KP_MINUS &kp LEFT_BRACE &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &kp RIGHT_BRACE            &kp KP_EQUAL           &kp UNDERSCORE           &kp PIPE     &trans
-        &trans        &kp N1    &kp N2      &kp N3       &kp N4         &kp N5            &kp N6                   &kp N7                     &kp N8                 &kp N9                   &kp N0     &kp BSLH
-        &kp LSHFT     &kp EXCL  &kp AT      &kp HASH     &kp DLLR       &kp PRCNT         &kp CARET  &kp C_MUTE    &kp AMPS                   &kp KP_MULTIPLY        &kp LPAR                 &kp RPAR   &kp COLON
-                                             &trans      &trans         &mo ADJUST        &mo LGUI                 &kp BSPC                   &kp SPACE              &mo ADJUST               &trans
+        &kp ESC       &trans    &kp KP_PLUS &kp KP_MINUS &kp LEFT_BRACE &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp RIGHT_BRACE            &kp KP_EQUAL           &kp UNDERSCORE           &kp PIPE     &trans
+        &trans        &kp N1    &kp N2      &kp N3       &kp N4         &kp N5                &kp N6                   &kp N7                     &kp N8                 &kp N9                   &kp N0     &kp BSLH
+        &kp LSHFT     &kp EXCL  &kp AT      &kp HASH     &kp DLLR       &kp PRCNT  &kp C_MUTE &kp CARET  &kp AMPS      &kp KP_MULTIPLY        &kp LPAR                 &kp RPAR   &kp COLON
+                                             &trans      &trans         &mo ADJUST            &mo LGUI                 &kp BSPC                   &kp SPACE              &mo ADJUST               &trans
       >;
       sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
     };
